@@ -1,0 +1,4 @@
+twilio==6.5.0
+flask==0.10.1
+rq-scheduler==0.5.1
+requests==2.8.1
