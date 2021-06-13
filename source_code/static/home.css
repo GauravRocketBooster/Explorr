@@ -1,0 +1,52 @@
+/*
+
+Ratio:
+39/7 from vw to px
+
+*/
+
+/* Default Sizes */
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h1
+{
+    font-size:39px;
+}
+
+h2
+{
+    font-size: 36px;
+}
+h3{
+    font-size:33.4px;
+}
+
+/* Align to center */
+
+body
+{
+    display:flex;
+    justify-content: center;
+}
+
+.container
+{
+    display:flex;
+    width:90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Map */
+.map {
+    width:90vw;
+    max-width:600px;
+    height:60vw;
+    max-height:403px;
+    border:1px solid black;
+}

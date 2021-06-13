@@ -1,21 +1,11 @@
-from kivy.app import App
-from kivy.uix.widget import Widget
-from kivy.properties import ObjectProperty
-from kivy.lang import Builder
-from kivy_garden.mapview import MapView
+from flask import Flask, render_template
 
-# Just load our .kv design stuff right here
-Builder.load_string(open('main.kv', 'r').read())
+app = Flask('app')
 
 
-class HomePage(Widget):
-    pass
+@app.route('/')
+def hello_world():
+    return render_template('home.html')
 
 
-class THE_APP(App):
-    def build(self):
-        return HomePage()
-
-
-if __name__ == '__main__':
-    THE_APP().run()
+app.run(host='0.0.0.0', port=8080)
