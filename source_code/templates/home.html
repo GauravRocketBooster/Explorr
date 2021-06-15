@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="{{ url_for('static', filename='home.css') }}">
+    <script src="{{ url_for('static', filename='home.js') }}"></script>
+    <title>Title Here</title>
+</head>
+
+<body>
+    <div class='container'>
+        <h1 class='title'>Title Here</h1>
+        <div class='map'>
+        </div>
+        <form class="info">
+            <input type='text' class='input tags' placeholder="Place">
+            <input type='number' class='input distance' placeholder="Miles Radius">
+            <h3>mi</h3>
+        </form>
+    </div>
+</body>
+
+</html>
