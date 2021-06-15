@@ -5,7 +5,6 @@ Ratio:
 
 */
 
-
 /* Default Sizes */
 
 *
@@ -23,9 +22,8 @@ h2
 {
     font-size: 36px;
 }
-
 h3{
-    font-size:25px;
+    font-size:33.4px;
 }
 
 /* Align to center */
@@ -51,37 +49,4 @@ body
     height:60vw;
     max-height:403px;
     border:1px solid black;
-    margin:10px;
-}
-
-/* Forms */
-.info
-{
-    display: flex;
-    width:90vw;
-    max-width:600px;
-    align-items: center;
-    justify-content: space-evenly;
-    padding:8px 8px;
-}
-
-.input
-{
-    display:flex;
-    border-radius:2.5px;
-    border: 1.5px solid black;
-    height:60%;
-    font-size:20px;
-}
-
-.tags
-{
-    width:70%;
-    height:80%;
-}
-
-.distance
-{
-    width:10%;
-    flex-grow:1;
 }
